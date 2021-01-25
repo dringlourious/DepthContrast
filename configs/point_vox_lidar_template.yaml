@@ -14,7 +14,7 @@ print_freq: 5
 
 dataset:
   DATASET_NAMES: [waymo]
-  DATA_PATHS: ['/path/to/waymo.npy']
+  DATA_PATHS: ['data/waymo/waymo.npy']
   BATCHSIZE_PER_REPLICA: 32
   LABEL_TYPE: sample_index
   DATA_TYPE: point_vox
