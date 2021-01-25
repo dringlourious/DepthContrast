@@ -11,9 +11,9 @@ import os
 import tensorflow as tf
 import numpy as np
 import glob
-from open3d import *
+# from open3d import *
 
-tf.enable_eager_execution()
+# tf.enable_eager_execution()
 
 
 debug = False
