@@ -14,14 +14,14 @@ try:
     from models.trunks.spconv.models.res16unet import Res16UNet34
 except:
     Res16UNet34 = None
-    
-try:
+
+# try:
     from models.trunks.pointnet2_backbone import PointNet2MSG
     from models.trunks.spconv_unet import UNetV2_concat as UNetV2
-except:
-    PointNet2MSG = None
-    UNetV2 = None
-    
+# except:
+#     PointNet2MSG = None
+#     UNetV2 = None
+
 TRUNKS = {
     "pointnet": PointNet,
     "unet": Res16UNet34,
